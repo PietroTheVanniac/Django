@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    
+</html>
+<header>
+    <div class="nav-left">
+        <h1><a href="{%url 'home' %}">Mi pan sun sun sun</a>
+    </div>
+
+    <div class="nav-right">
+        <h1><a href="{%url 'post_new' %}">+ New Post</a>
+    </div>
+
+
+    <h1>BlogPage</h1>
+    <a href="{%url 'home' %}">home</a>
+    <a href="{%url 'about' %}">about</a>
+
+</header>
+
+{% block content %}
+
+ {% endblock content %}
+
+ <footer>
+    <a href="mailto:pietroj0211@gmail.com">Acto, acto, pide contacto.</a>
+ </footer>
+ </body>
+ </html>
